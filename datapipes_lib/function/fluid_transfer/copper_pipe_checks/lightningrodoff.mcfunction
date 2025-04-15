@@ -1,0 +1,13 @@
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=east,waterlogged=false] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=east,powered=false,waterlogged=false]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=north,waterlogged=false] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=north,powered=false,waterlogged=false]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=west,waterlogged=false] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=west,powered=false,waterlogged=false]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=south,waterlogged=false] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=south,powered=false,waterlogged=false]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=down,waterlogged=false] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=down,powered=false,waterlogged=false]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=up,waterlogged=false] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=up,powered=false,waterlogged=false]
+
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=east,waterlogged=true] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=east,powered=false,waterlogged=true]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=north,waterlogged=true] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=north,powered=false,waterlogged=true]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=west,waterlogged=true] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=west,powered=false,waterlogged=true]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=south,waterlogged=true] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=south,powered=false,waterlogged=true]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=down,waterlogged=true] run return run setblock ~ ~ ~ minecraft:lightning_rod[facing=down,powered=false,waterlogged=true]
+execute if block ~ ~ ~ minecraft:lightning_rod[facing=up,waterlogged=true] run setblock ~ ~ ~ minecraft:lightning_rod[facing=up,powered=false,waterlogged=true]

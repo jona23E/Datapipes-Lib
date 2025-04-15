@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ lightning_rod[powered=true] run return run function datapipes_lib:fluid_transfer/copper_pipe_checks/off/islron
+execute if block ~ ~ ~ minecraft:light[level=5] run function datapipes_lib:fluid_transfer/copper_pipe_checks/off/islrblockon

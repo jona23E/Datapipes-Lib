@@ -1,0 +1,13 @@
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=east] positioned ~1 ~ ~ if block ~ ~ ~ quartz_pillar[axis=x] run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=east] positioned ~-1 ~ ~ if block ~ ~ ~ quartz_pillar[axis=x] run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=south] positioned ~ ~ ~1 if block ~ ~ ~ quartz_pillar[axis=z] run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=south] positioned ~ ~ ~-1 if block ~ ~ ~ quartz_pillar[axis=z] run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=north] positioned ~ ~1 ~ if block ~ ~ ~ quartz_pillar[axis=y] run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=north] positioned ~ ~-1 ~ if block ~ ~ ~ quartz_pillar[axis=y] run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=east] positioned ~1 ~ ~ if block ~ ~ ~ chiseled_quartz_block run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=east] positioned ~-1 ~ ~ if block ~ ~ ~ chiseled_quartz_block run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=south] positioned ~ ~ ~1 if block ~ ~ ~ chiseled_quartz_block run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=south] positioned ~ ~ ~-1 if block ~ ~ ~ chiseled_quartz_block run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=north] positioned ~ ~1 ~ if block ~ ~ ~ chiseled_quartz_block run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute if block ~ ~ ~ minecraft:lime_glazed_terracotta[facing=north] positioned ~ ~-1 ~ if block ~ ~ ~ chiseled_quartz_block run return run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson

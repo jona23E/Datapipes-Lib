@@ -1,0 +1,7 @@
+function datapipes_lib:fluid_transfer/copper_pipe_checks/lightningrodoff
+execute if predicate datapipes_lib:lightning_rod_axis_x positioned ~1 ~ ~ if predicate datapipes_lib:copper_pipe_on run return run function datapipes_lib:fluid_transfer/copper_pipe_checks/off/connectedcopperpipesoff
+execute if predicate datapipes_lib:lightning_rod_axis_x positioned ~-1 ~ ~ if predicate datapipes_lib:copper_pipe_on run return run function datapipes_lib:fluid_transfer/copper_pipe_checks/off/connectedcopperpipesoff
+execute if predicate datapipes_lib:lightning_rod_axis_y positioned ~ ~1 ~ if predicate datapipes_lib:copper_pipe_on run return run function datapipes_lib:fluid_transfer/copper_pipe_checks/off/connectedcopperpipesoff
+execute if predicate datapipes_lib:lightning_rod_axis_y positioned ~ ~-1 ~ if predicate datapipes_lib:copper_pipe_on run return run function datapipes_lib:fluid_transfer/copper_pipe_checks/off/connectedcopperpipesoff
+execute if predicate datapipes_lib:lightning_rod_axis_z positioned ~ ~ ~1 if predicate datapipes_lib:copper_pipe_on run return run function datapipes_lib:fluid_transfer/copper_pipe_checks/off/connectedcopperpipesoff
+execute if predicate datapipes_lib:lightning_rod_axis_z positioned ~ ~ ~-1 if predicate datapipes_lib:copper_pipe_on run function datapipes_lib:fluid_transfer/copper_pipe_checks/off/connectedcopperpipesoff

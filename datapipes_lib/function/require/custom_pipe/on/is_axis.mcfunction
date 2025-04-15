@@ -1,0 +1,13 @@
+$execute if block ~ ~ ~ minecraft:light[level=4] positioned ~1 ~ ~ if block ~ ~ ~ $(axis)[axis=x] run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=4] positioned ~-1 ~ ~ if block ~ ~ ~ $(axis)[axis=x] run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=7] positioned ~ ~ ~1 if block ~ ~ ~ $(axis)[axis=z] run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=7] positioned ~ ~ ~-1 if block ~ ~ ~ $(axis)[axis=z] run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=6] positioned ~ ~1 ~ if block ~ ~ ~ $(axis)[axis=y] run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=6] positioned ~ ~-1 ~ if block ~ ~ ~ $(axis)[axis=y] run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+
+$execute if block ~ ~ ~ minecraft:light[level=4] positioned ~1 ~ ~ if block ~ ~ ~ $(corner) run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=4] positioned ~-1 ~ ~ if block ~ ~ ~ $(corner) run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=7] positioned ~ ~ ~1 if block ~ ~ ~ $(corner) run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=7] positioned ~ ~ ~-1 if block ~ ~ ~ $(corner) run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=6] positioned ~ ~1 ~ if block ~ ~ ~ $(corner) run return run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ minecraft:light[level=6] positioned ~ ~-1 ~ if block ~ ~ ~ $(corner) run function datapipes_lib:require/custom_pipe/on/connected_pipes_on with storage datapipes_lib:temp args

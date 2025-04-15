@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ minecraft:chain run function datapipes_lib:power_transfer/wire_connection_check/turn_on_wire
+execute if block ~ ~ ~ minecraft:granite_slab[type=double] run return run function datapipes_lib:power_transfer/wire_connection_check/isrgtw
+execute unless block ~ ~ ~ red_glazed_terracotta[facing=west] if block ~ ~ ~ red_glazed_terracotta run function datapipes_lib:power_transfer/wire_connection_check/isrgt

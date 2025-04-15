@@ -1,0 +1,1 @@
+$execute rotated $(angle) 0 run $(command)

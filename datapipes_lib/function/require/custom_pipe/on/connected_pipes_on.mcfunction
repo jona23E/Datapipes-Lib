@@ -1,0 +1,3 @@
+$execute if block ~ ~ ~ $(axis) run function datapipes_lib:require/custom_pipe/on/turn_on with storage datapipes_lib:temp args
+$execute if block ~ ~ ~ $(corner) run return run function datapipes_lib:require/custom_pipe/on/is_corner with storage datapipes_lib:temp args
+execute unless block ~ ~ ~ light[level=5] if block ~ ~ ~ light run function datapipes_lib:require/custom_pipe/on/is_axis with storage datapipes_lib:temp args

@@ -1,0 +1,4 @@
+execute if block ~ ~ ~ minecraft:chain[axis=y] positioned ~ ~1 ~ if block ~ ~ ~ minecraft:red_glazed_terracotta[facing=north] run return run function datapipes_lib:power_transfer/wire_connection_check/connected_wires_off
+execute if block ~ ~ ~ minecraft:chain[axis=y] positioned ~ ~-1 ~ if block ~ ~ ~ minecraft:red_glazed_terracotta[facing=north] run return run function datapipes_lib:power_transfer/wire_connection_check/connected_wires_off
+execute if block ~ ~ ~ minecraft:chain[axis=y] positioned ~ ~1 ~ if block ~ ~ ~ red_glazed_terracotta[facing=west] run return run function datapipes_lib:power_transfer/wire_connection_check/connected_wires_off
+execute if block ~ ~ ~ minecraft:chain[axis=y] positioned ~ ~-1 ~ if block ~ ~ ~ red_glazed_terracotta[facing=west] run function datapipes_lib:power_transfer/wire_connection_check/connected_wires_off

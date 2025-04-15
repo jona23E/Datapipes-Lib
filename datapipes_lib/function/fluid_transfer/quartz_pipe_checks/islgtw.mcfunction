@@ -1,0 +1,12 @@
+execute positioned ~1 ~ ~ if block ~ ~ ~ quartz_pillar[axis=x] run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~-1 ~ ~ if block ~ ~ ~ quartz_pillar[axis=x] run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~ ~1 ~ if block ~ ~ ~ quartz_pillar[axis=y] run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~ ~-1 ~ if block ~ ~ ~ quartz_pillar[axis=y] run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~ ~ ~1 if block ~ ~ ~ quartz_pillar[axis=z] run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~ ~ ~-1 if block ~ ~ ~ quartz_pillar[axis=z] run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~1 ~ ~ if block ~ ~ ~ chiseled_quartz_block run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~-1 ~ ~ if block ~ ~ ~ chiseled_quartz_block run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~ ~1 ~ if block ~ ~ ~ chiseled_quartz_block run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~ ~-1 ~ if block ~ ~ ~ chiseled_quartz_block run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~ ~ ~1 if block ~ ~ ~ chiseled_quartz_block run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
+execute positioned ~ ~ ~-1 if block ~ ~ ~ chiseled_quartz_block run function datapipes_lib:fluid_transfer/quartz_pipe_checks/connectedquartzpipeson
