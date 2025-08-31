@@ -1,1 +1,0 @@
-$data modify entity @s data.fluids.tanks[-$(current_tank)].type set value '$(type)'

@@ -1,3 +1,0 @@
-execute unless block ~ ~ ~ minecraft:light[level=5] if block ~ ~ ~ minecraft:light run function datapipes_lib:require/custom_pipe/off/turn_off with storage datapipes_lib:temp args
-execute if block ~ ~ ~ light[level=5] run return run function datapipes_lib:require/custom_pipe/off/is_corner with storage datapipes_lib:temp args
-$execute if block ~ ~ ~ $(axis) run function datapipes_lib:require/custom_pipe/off/is_axis with storage datapipes_lib:temp args

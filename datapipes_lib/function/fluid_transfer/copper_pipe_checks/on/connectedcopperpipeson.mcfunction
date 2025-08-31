@@ -1,2 +1,0 @@
-execute if block ~ ~ ~ minecraft:lightning_rod[powered=false] run return run function datapipes_lib:fluid_transfer/copper_pipe_checks/on/islroff
-execute if block ~ ~ ~ minecraft:waxed_cut_copper run function datapipes_lib:fluid_transfer/copper_pipe_checks/on/islrblockoff
